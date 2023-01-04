@@ -14,6 +14,7 @@
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
     <title>WebStudio</title>
 </head>
 
@@ -295,7 +296,7 @@
                 <p class="footer__subtitle">Підпишіться на розсилку</p>
                 <form>
                     <div class="footer-field">
-                        <input class="email-footer" name="email-footer" id="email-footer" type="email"
+                        <input class="footer__email" name="email-footer" id="email-footer" type="email"
                             placeholder="E-mail">
                         <button class="footer__button">Підписатися
                             <svg class="footer__button-icon" width=18 height=18>
@@ -311,12 +312,12 @@
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <div class="modal__container">
-                <button class="button__modal" data-modal-close>
-                    <svg class="button__modal-cross" width=16 height=16>
+                <button class="modal__button" data-modal-close>
+                    <svg class="modal__button-cross" width=16 height=16>
                         <use href="./images/icons.svg#icon-cross">
                     </svg></button>
-                <h2 class="modal-title">Залиште свої данні, ми вам передзвонимо</h2>
-                <form name="form" autocomplete="on">
+                <h2 class="modal__title">Залиште свої данні, ми вам передзвонимо</h2>
+                <form class="form" name="form" autocomplete="on">
                     <label class="form__user-label" for="user-name">Ім'я</label>
                     <div class="form__field">
                         <input class="form__user-input" name="user-name" id="user-name" type="text">
@@ -352,7 +353,7 @@
                                 class="modal__link">Умови договору</a></label>
                     </div>
 
-                    <button class="modal__button hero__button" type="submit">Відправити</button>
+                    <button class="modal__button-submit hero__button" type="submit">Відправити</button>
                 </form>
             </div>
         </div>
