@@ -11,11 +11,11 @@
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 	align-items: center;
 	display: flex;
-}
-.address:hover,
-.address:focus {
-	color: var(--logo-color-main);
-	fill: var(--logo-color-main);
+	&:hover,
+	&:focus {
+		color: var(--logo-color-main);
+		fill: var(--logo-color-main);
+	}
 }
 .address-icon {
 	margin-right: 10px;
