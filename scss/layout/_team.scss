@@ -1,22 +1,27 @@
 .team {
 	padding: 94px 0;
 	background-color: var(--section-color-background);
+
 	&__block {
 		display: flex;
 		gap: 30px;
 	}
+
 	&__group {
 		padding: 30px;
 		background-color: var(--logo-color-footer);
 	}
+
 	&__img {
 		display: block;
 	}
+
 	&__card {
 		box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
 			0px 2px 1px rgba(0, 0, 0, 0.2);
 		border-radius: 0px 0px 4px 4px;
 	}
+	
 	&__name {
 		margin: 0 0 10px 0;
 		font-weight: 500;
@@ -25,6 +30,7 @@
 		text-align: center;
 		letter-spacing: 0.03em;
 	}
+
 	&__text {
 		margin: 0 auto;
 		color: var(--primary-address-color);
@@ -33,11 +39,13 @@
 		text-align: center;
 		letter-spacing: 0.03em;
 	}
+
 	&__list {
 		display: flex;
 		justify-content: space-between;
 		margin-top: 16px;
 	}
+	
 	&__icon {
 		display: flex;
 		align-items: center;

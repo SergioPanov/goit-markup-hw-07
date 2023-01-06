@@ -1,10 +1,12 @@
 .clients {
 	background-color: var(--logo-color-footer);
 	padding: 94px 0;
+
 	&__list {
 		display: flex;
 		gap: 30px;
 	}
+
 	&__link {
 		width: 170px;
 		height: 92px;
@@ -17,6 +19,7 @@
 		transition-property: border-color, fill;
 		transition-duration: 250ms;
 		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 		&:hover,
 		&:focus {
 			fill: var(--logo-color-main);
